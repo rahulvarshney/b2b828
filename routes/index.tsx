@@ -2,6 +2,7 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import Counter from "../islands/Counter.tsx";
+import Logo from "../islands/Logo.tsx";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        0-0-3 console logging logo json
+        0-1-3 success ! printing url!
+       < Logo />
       </p>
       <Counter start={3} />
     </div>
