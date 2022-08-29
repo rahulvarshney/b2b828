@@ -12,7 +12,7 @@ export default function Home() {
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        0-0-2 console logging logo json
+        0-0-3 console logging logo json
       </p>
       <Counter start={3} />
     </div>
